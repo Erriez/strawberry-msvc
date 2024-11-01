@@ -148,11 +148,10 @@ Release build:
 - Toolbar Project | CMake Settings:
     - Create new `x64-Release`
     - Select Configurations `x64-Release`
-    - Add `CMake command arguments`: `-DARCH=x86_64 -DICU_ROOT=c:\\strawberry_msvc_x86_64_release`
+    - Add `CMake command arguments`: `-DARCH=x86_64 -DICU_ROOT=c:\\strawberry_msvc_x86_64_release -DENABLE_WIN32_CONSOLE=OFF`
     - Save the changes
     - In the toolbar select `x64-Release`
     - Project | Delete Cache and Reconfigure
-    - Uncheck: `ENABLE_WIN32_CONSOLE`
 - Toolbar: Build | Build All
 
 Set breakpoint and press F5 to start debugging and use F10 to step into and F11 to step over.
