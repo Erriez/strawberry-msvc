@@ -129,6 +129,8 @@ Strawberry and Windows installer executables are generated in:
 
 ## Setting up Strawberry for development in Visual Studio 2022
 
+Optional `Qt Visual Studio Tools` can be installed via the toolbar `Extensions | Manage Extensions` and search for `Qt Visual Studio Tools`. Then click `Install`.
+
 Debug build:
 - Make sure the path `C:\strawberry_msvc_x86_64_debug\bin` is added to the `PATH` environment variable before starting Visual Studio 2022.
 - Start | Visual Studio 2022
