@@ -129,7 +129,7 @@ Strawberry and Windows installer executables are generated in:
 - For debug: `C:\data\projects\strawberry\msvc_\build_debug\strawberry\build\`
 - For release: `C:\data\projects\strawberry\msvc_\build_release\strawberry\build\`
 
-## Debug Strawberry with Visual Studio
+## Setting up Strawberry for development in Visual Studio 2022
 
 Debug build:
 - Make sure the path `C:\strawberry_msvc_x86_64_debug\bin` is added to the `PATH` environment variable before starting Visual Studio 2022.
