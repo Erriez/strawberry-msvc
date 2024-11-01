@@ -8,15 +8,6 @@ We do not offer support to users for building Strawberry on Windows.
 
 Build tools (Git, CMake, Meson, Perl, Python, etc) versions are not regulary updated, so make sure you bump the versions in versions.bat before you run install.bat.
 
-## Links
-
-- [Strawberry Music Player Website](https://www.strawberrymusicplayer.org)
-- [Wiki](https://wiki.strawberrymusicplayer.org/wiki/Main_Page)
-- [Forum](https://forum.strawberrymusicplayer.org)
-- [Github sources](https://github.com/strawberrymusicplayer/strawberry)
-- [Github MSVC](https://github.com/strawberrymusicplayer/strawberry-msvc)
-- [Github MSVC prebuilt binary dependencies](https://github.com/strawberrymusicplayer/strawberry-msvc-dependencies)
-
 ### Requirements
 
 * [Git for Windows](https://gitforwindows.org/)
