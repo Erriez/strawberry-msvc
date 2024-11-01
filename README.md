@@ -40,6 +40,7 @@ Open a `Command Prompt` and type:
 ```
 mkdir C:\data\projects\strawberry
 cd C:\data\projects\strawberry
+git clone git@github.com:strawberrymusicplayer/strawberry.git
 git clone https://github.com/strawberrymusicplayer/strawberry-msvc.git
 cd strawberry-msvc
 .\download.bat
@@ -133,7 +134,7 @@ Strawberry and Windows installer executables are generated in:
 Debug build:
 - Make sure the path `C:\strawberry_msvc_x86_64_debug\bin` is added to the `PATH` environment variable before starting Visual Studio 2022.
 - Start | Visual Studio 2022
-- Open a local folder `C:\data\projects\strawberry\msvc_\downloads\strawberry`
+- Open a local folder `C:\data\projects\strawberry\strawberry`
 - Toolbar Project | CMake Settings:
     - Select Configurations `x64-Debug`
     - Add `CMake command arguments`: `-DARCH=x86_64 -DICU_ROOT=c:\\strawberry_msvc_x86_64_debug`
@@ -143,7 +144,7 @@ Debug build:
 Release build:
 - Make sure the path `C:\strawberry_msvc_x86_64_release\bin` is added to the `PATH` environment variable before starting Visual Studio 2022.
 - Start | Visual Studio 2022
-- Open a local folder `C:\data\projects\strawberry\msvc_\downloads\strawberry`
+- Open a local folder `C:\data\projects\strawberry\strawberry`
 - Toolbar Project | CMake Settings:
     - Create new `x64-Release`
     - Select Configurations `x64-Release`
