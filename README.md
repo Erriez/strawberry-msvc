@@ -60,8 +60,7 @@ Install manually from `C:\data\projects\strawberry\msvc_\downloads`:
     - Extract `win_flex_bison-<VERSION>.zip` to `C:\win_flex_bison`
 - **Recommended: When building dependencies from source**:
     - Install `nasm-<VERSION>-installer-x64.exe`
-        - Run as normal user and click OK 
-        - Install in default directory `C:\Users\<USER>\AppData\Local\bin\NASM`
+        - Run as `Administrator` and install into `C:\Program Files\NASM`.
 - **Recommended: When creating NSIS Windows installer**:
     - Install NSIS: `nsis-<NSIS_VERSION>-setup.exe`
     - Extract NSIS `LockedList.zip` plugin:
@@ -81,7 +80,6 @@ Windows Settings | System | About | Advanced system settings | Tab Advanced | En
 - System variables | Path | Edit:
     - Delete: `C:\Strawberry\c\bin` (To prevent conflicts with other utilities)
     - Add: `C:\Program Files\Git\bin` (This is for `sed` and `patch` utilities)
-    - Add: `C:\Users\user\AppData\Local\bin\NASM`
     - Add: `C:\Program Files (x86)\NSIS`
     - Make sure no MinGW-W64 (gcc, g++, etc) installation is in `PATH`, as this can cause those to be picked up as compiler instead of MSVC.
 
