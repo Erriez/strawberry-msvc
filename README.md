@@ -155,4 +155,4 @@ Release build:
     - Uncheck: `ENABLE_WIN32_CONSOLE`
 - Toolbar: Build | Build All
 
-Set breakpoint and press F5 to step through the code.
+Set breakpoint and press F5 to start debugging and use F10 to step into and F11 to step over.
