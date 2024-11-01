@@ -17,6 +17,23 @@ Build tools (Git, CMake, Meson, Perl, Python, etc) versions are not regulary upd
 - [Github MSVC](https://github.com/strawberrymusicplayer/strawberry-msvc)
 - [Github MSVC prebuilt binary dependencies](https://github.com/strawberrymusicplayer/strawberry-msvc-dependencies)
 
+### Requirements
+
+* [Git for Windows](https://gitforwindows.org/)
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
+* [Qt Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2022)
+* [CMake](https://cmake.org/)
+* [Meson](https://mesonbuild.com/)
+* [NASM](https://www.nasm.us/)
+* [Strawberry Perl](https://strawberryperl.com/)
+* [Python](https://www.python.org/downloads/windows/)
+* [7-Zip](https://www.7-zip.org/download.html)
+* [Win Flex/Bison](https://sourceforge.net/projects/winflexbison/)
+* [NSIS](https://nsis.sourceforge.io/)
+* [NSIS LockedList Plugin](https://nsis.sourceforge.io/LockedList_plug-in)
+* [NSIS Inetc Plugin](https://nsis.sourceforge.io/Inetc_plug-in)
+* [NSIS Registry Plugin](https://nsis.sourceforge.io/Registry_plug-in)
+
 ## Manual installation on Windows
 
 Download and install manually:
