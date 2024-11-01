@@ -83,7 +83,7 @@ Windows Settings | System | About | Advanced system settings | Tab Advanced | En
     - Add: `C:\Users\user\AppData\Local\bin\NASM`
     - Add: `C:\data\projects\strawberry\msvc_\downloads\win_flex_bison-<VERSION>`
     - Add: `C:\Program Files (x86)\NSIS`
-    - Make sure no MinGW-W64 (gcc, g++, etc) installation is in PATH, as this can cause those to be picked up as compiler instead of MSVC.
+    - Make sure no MinGW-W64 (gcc, g++, etc) installation is in `PATH`, as this can cause those to be picked up as compiler instead of MSVC.
 
 ### Meson installation
 
@@ -107,7 +107,7 @@ To use prebuilds, download the following `tar.xz` files from Github [strawberry-
 
 ## Build Strawberry from source including dependencies
 
-- Set one debug or release in `Path` environment variable:
+- Set one debug or release in `PATH` environment variable:
     - For debug: `C:\strawberry_msvc_x86_64_debug\bin`, or:
     - For release: `C:\strawberry_msvc_x86_64_release\bin`
 - Start | `x64 Native Tools Command Prompt for VS 2022`:
@@ -132,7 +132,7 @@ Strawberry and Windows installer executables are generated in:
 ## Debug Strawberry with Visual Studio
 
 Debug build:
-- Make sure path `C:\strawberry_msvc_x86_64_debug\bin` is set in environment variables
+- Make sure the path `C:\strawberry_msvc_x86_64_debug\bin` is added to the `PATH` environment variable before starting Visual Studio 2022.
 - Start | Visual Studio 2022
 - Open a local folder `C:\data\projects\strawberry\msvc_\downloads\strawberry`
 - Toolbar Project | CMake Settings:
@@ -142,7 +142,7 @@ Debug build:
 - Toolbar: Build | Build All
 
 Release build:
-- Make sure path `C:\strawberry_msvc_x86_64_release\bin` is set in environment variables
+- Make sure the path `C:\strawberry_msvc_x86_64_release\bin` is added to the `PATH` environment variable before starting Visual Studio 2022.
 - Start | Visual Studio 2022
 - Open a local folder `C:\data\projects\strawberry\msvc_\downloads\strawberry`
 - Toolbar Project | CMake Settings:
