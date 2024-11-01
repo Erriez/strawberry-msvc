@@ -25,7 +25,9 @@ Build tools (Git, CMake, Meson, Perl, Python, etc) versions are not regulary upd
 * [NSIS Inetc Plugin](https://nsis.sourceforge.io/Inetc_plug-in)
 * [NSIS Registry Plugin](https://nsis.sourceforge.io/Registry_plug-in)
 
-## Manual installation on Windows
+## Windows setup
+
+### Manual installation on Windows
 
 Download and install manually:
 - [Git](https://git-scm.com/downloads)
@@ -33,7 +35,7 @@ Download and install manually:
 - [Visual Studio 2022 Community](https://visualstudio.microsoft.com/vs/)
     - Select `Desktop development with C++`
 
-## Windows setup
+### Clone repositories and download tools/dependencies
 
 Open a `Command Prompt` and type:
 
@@ -45,6 +47,8 @@ git clone https://github.com/strawberrymusicplayer/strawberry-msvc.git
 cd strawberry-msvc
 .\download.bat
 ```
+
+### Installation
 
 Install manually from `C:\data\projects\strawberry\msvc_\downloads`:
 - **Required**:
@@ -72,6 +76,8 @@ Install manually from `C:\data\projects\strawberry\msvc_\downloads`:
         - Copy `Registry\Desktop\Plugin\registry.dll` to `C:\Program Files (x86)\NSIS\Plugins\registry.dll`
         - Copy `Registry\Desktop\Plugin\registry.dll` to `C:\Program Files (x86)\NSIS\Plugins\x86-unicode\registry.dll`
 
+### Configure PATH environment variable
+
 Delete `pkg-config` files to prevent conflicts with Strawberry's own `pkg-config`:
 - Delete `C:\strawberry\perl\bin\pkg-config`
 - Delete `C:\strawberry\perl\bin\pkg-config.bat`
@@ -95,7 +101,7 @@ Then install Meson via Python PIP system wide. Start | `x64 Native Tools Command
 pip install meson
 ```
 
-## Optional: Prebuilt binary dependencies
+### Optional: Prebuilt binary dependencies
 
 Prebuilt MSVC binaries can be optionally used to speed-up the build process. When this step is skipped, all libraries and dependencies are build from source.
 
