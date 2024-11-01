@@ -56,7 +56,7 @@ Install manually from `C:\data\projects\strawberry\msvc_\downloads`:
         - In dialog `Setup was successful`:
             - Click: `Disable path length limit`
     - Install `strawberry-perl-<VERSION>-64bit.msi`
-    - Extract `win_flex_bison-<VERSION>.zip`
+    - Extract `win_flex_bison-<VERSION>.zip` to `C:\win_flex_bison`
 - **Recommended: When building dependencies from source**:
     - Install `nasm-<VERSION>-installer-x64.exe`
         - Run as normal user and click OK 
@@ -81,7 +81,6 @@ Windows Settings | System | About | Advanced system settings | Tab Advanced | En
     - Delete: `C:\Strawberry\c\bin` (To prevent conflicts with other utilities)
     - Add: `C:\Program Files\Git\bin` (This is for `sed` and `patch` utilities)
     - Add: `C:\Users\user\AppData\Local\bin\NASM`
-    - Add: `C:\data\projects\strawberry\msvc_\downloads\win_flex_bison-<VERSION>`
     - Add: `C:\Program Files (x86)\NSIS`
     - Make sure no MinGW-W64 (gcc, g++, etc) installation is in `PATH`, as this can cause those to be picked up as compiler instead of MSVC.
 
