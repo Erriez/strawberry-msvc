@@ -40,7 +40,7 @@ Open a `Command Prompt` and type:
 ```
 mkdir C:\data\projects\strawberry
 cd C:\data\projects\strawberry
-git clone git@github.com:strawberrymusicplayer/strawberry.git
+git clone https://github.com/strawberrymusicplayer/strawberry.git
 git clone https://github.com/strawberrymusicplayer/strawberry-msvc.git
 cd strawberry-msvc
 .\download.bat
