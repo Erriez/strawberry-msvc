@@ -35,7 +35,7 @@ Download and install manually:
 
 ## Windows setup
 
-Open a Windows Terminal and type:
+Open a `Command Prompt` and type:
 
 ```
 mkdir C:\data\projects\strawberry
